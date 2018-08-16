@@ -16,7 +16,7 @@ class BaseLayout
     root_view.translatesAutoresizingMaskIntoConstraints = false
     root_view.removeConstraints(root_view.constraints)
 
-    subviews.each do |k, sv|
+    subviews.each do |_, sv|
       sv.translatesAutoresizingMaskIntoConstraints = false
       sv.removeConstraints(sv.constraints)
     end
